@@ -1,0 +1,77 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1E7E7;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling */
+
+}
+
+.container {
+    width: 60%; /* Reduce the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #FFD0C7;
+    box-sizing: border-box;
+    position: relative; /* Make the container the reference point for absolute positioning */
+}
+.lefter{
+    width: 30%;
+    height: 100%;
+    background-color: #E69DB8;
+    padding: 20px;
+    border-right: 1px solid #000;
+    
+}
+
+.Name {
+    position: relative; /* Keep the Name section in the normal flow */
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+
+.contact {
+    position: relative; /* Keep the Contact section in the normal flow */
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+
+.skills {
+    position: relative; /* Keep the Skills section in the normal flow */
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+
+.profile {
+    position: relative; /* Keep the Profile section in the normal flow */
+    left: 40%; /* Move the Profile section to the center */
+    top: -540px;
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+
+.Experience {
+    position: relative; /* Keep the Experience section in the normal flow */
+    left: 40%; /* Move the Experience section to the center */
+    top: -520px;
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+
+.Education {
+    position: relative; /* Keep the Education section in the normal flow */
+    margin-bottom: 20px; /* Add spacing below */
+    width: 100%; /* Take full width of the container */
+}
+a {
+    color: #FFFECE; /* Change the link color to blue */
+    text-decoration: none; /* Optional: Remove the underline */
+}
+
+a:hover {
+    color: darkblue; /* Change the color when the user hovers over the link */
+    text-decoration: none /* Optional: Add underline on hover */
+}
